@@ -1,0 +1,23 @@
+cd 路徑到你的專案資料夾
+git init
+
+git add .
+
+git commit -m " "
+
+git push
+
+git remote add origin https://github.com/B1229021/streamlit.git
+
+git branch -M main
+
+git push -u origin main
+
+
+
+---
+git add .
+
+git commit -m " "
+
+git push
