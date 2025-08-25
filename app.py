@@ -15,7 +15,7 @@ conn = pymysql.connect(
 
 # 撈資料
 with conn.cursor() as cursor:
-    cursor.execute("SELECT * FROM your_table_name")  # 替換成你要查的 table
+    cursor.execute("SELECT * FROM user")  # 替換成你要查的 table
     rows = cursor.fetchall()
 
 # 顯示在網頁
